@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView"-->
+    <!--android:layout_width="80dp"-->
+    <!--android:layout_height="80dp"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_marginTop="15dp"-->
+    <!--android:padding="1dp"-->
+    <!--android:adjustViewBounds="true"-->
+    <!--android:background="@drawable/ic_header"-->
+    <!--android:contentDescription="@string/nav_header_desc"-->
+    <!--app:srcCompat="@drawable/icon_header" />-->
+
+    <com.yinglan.shadowimageview.ShadowImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="15dp"
+        app:shadowColor="#494242"
+        app:shadowRound="5dp"
+        app:shadowSrc="@drawable/logo3">
+
+    </com.yinglan.shadowimageview.ShadowImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:text="Amazing Wallpaper in your way"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#ffffff"
+        android:textSize="17sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginTop="15dp"
+        android:background="#D5E2E9"></View>
+
+</LinearLayout>
